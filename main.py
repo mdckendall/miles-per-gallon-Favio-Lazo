@@ -1,5 +1,4 @@
-#your code here!
-
-#read in the miles and read in the gallons used.
-
-#display the miles per gallon
+miles = float(input("How many miles? "))
+gal = float(input("how many gallons? "))
+avg = miles / gal
+print("MPG:", avg)
